@@ -1,4 +1,9 @@
-# 🤑 ProfitPulse Bank Management System
+<p align="center">
+  <img src="https://raw.githubusercontent.com/amalgohar/profitpulse/main/Bank%20Management%20System/src/icons/logo.jpg" alt="App Logo" width="180" height="180">
+</p>
+
+<h1 align="center">🤑 ProfitPulse: Bank Management System</h1>
+
 A Java-based mock bank management system designed to simulate banking operations such as account creation, login, transactions, and more. This system connects to an SQL database using JDBC to store and retrieve user data securely. 
 
 This system utilizes JFrame, a Java GUI toolkit, to create interactive user interfaces for seamless interaction with the application. Additionally, it connects to an SQL database using JDBC to store and retrieve user data securely. Through the combination of JFrame for the frontend and JDBC for backend database interaction, users can experience a comprehensive banking experience within the application.
@@ -18,7 +23,7 @@ This system utilizes JFrame, a Java GUI toolkit, to create interactive user inte
 5. Compile and run the Java files to start the ProfitPulse bank management system.
 
 ## 📗 SQL Commands
-* Create the database;
+* Create the database.
 ```sql
 CREATE DATABASE bankmanagementsystem;
 ```
@@ -90,3 +95,35 @@ CREATE TABLE bank (
 * JDBC driver for your chosen SQL database
 
 # 🔋 Demo
+1. Sign-Up: Page 1. 
+<img src="https://raw.githubusercontent.com/amalgohar/profitpulse/main/demo/signupone.jpg" alt="Account Creation - Page 1" width="500">
+
+2. Sign-Up: Page 2. 
+<img src="https://raw.githubusercontent.com/amalgohar/profitpulse/main/demo/signuptwo.jpg" alt="Account Creation - - Page 2" width="500">
+
+3. Sign-Up: Page 3.  
+<img src="https://raw.githubusercontent.com/amalgohar/profitpulse/main/demo/signupthree.jpg" alt="Account Creation - - Page 3" width="500">
+
+4. Login.
+<img src="https://raw.githubusercontent.com/amalgohar/profitpulse/main/demo/login.jpg" alt="Login" width="500">
+
+5. Main ATM screen after signing in.
+<img src="https://raw.githubusercontent.com/amalgohar/profitpulse/main/demo/mainscreen.jpg" alt="Main Screen" width="500">
+
+6. Deposit screen.
+<img src="https://raw.githubusercontent.com/amalgohar/profitpulse/main/demo/deposit.jpg" alt="Deposit" width="500">
+
+7. Withdrawal screen.
+<img src="https://raw.githubusercontent.com/amalgohar/profitpulse/main/demo/withdrawal.jpg" alt="Withdrawal" width="500">
+
+8. Fast cash screen.
+<img src="https://raw.githubusercontent.com/amalgohar/profitpulse/main/demo/fastcash.jpg" alt="Fast Cash" width="500">
+
+9. Recent transactions screen.
+<img src="https://raw.githubusercontent.com/amalgohar/profitpulse/main/demo/recenttransactions.jpg" alt="Recent Transaction" width="500">
+
+10. Change PIN screen.
+<img src="https://raw.githubusercontent.com/amalgohar/profitpulse/main/demo/changepin.jpg" alt="Change PIN" width="500">
+
+11. Balance inquiry screen.
+<img src="https://raw.githubusercontent.com/amalgohar/profitpulse/main/demo/balanceinquiry.jpg" alt="Balance Inquiry" width="500">
