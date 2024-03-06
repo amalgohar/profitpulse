@@ -10,11 +10,19 @@ This system utilizes JFrame, a Java GUI toolkit, to create interactive user inte
 
 # 🚦 Getting Started
 1. Clone the repository to your local machine.
-2. Set up an SQL database and update the connection details in Connection.java.
-3. Set up an SQL database and create the necessary tables. Below in the next section are the SQL commands to create the required tables:
+2. Set up an SQL database and update the connection details in **Connection.java**. Replace the designated space in the line below with your SQL password:
+   ```java
+   c = DriverManager.getConnection("jdbc:mysql:///bankmanagementsystem", "root", "PUT PASSWORD HERE");
+   ```
+4. Set up an SQL database and create the necessary tables. (Below in the next section are the SQL commands to create the required tables).
 5. Compile and run the Java files to start the ProfitPulse bank management system.
 
 ## 📗 SQL Commands
+* Create the database;
+```sql
+CREATE DATABASE bankmanagementsystem;
+```
+
 * Create the **login** table.
  ```sql
 CREATE TABLE login (
