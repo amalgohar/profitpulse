@@ -40,7 +40,7 @@ CREATE TABLE login (
 * Create the **signup** table for storing user personal details.
  ```sql
 CREATE TABLE signup (
-    formNo VARCHAR(10) PRIMARY KEY,
+    formNo VARCHAR(10),
     name VARCHAR(100),
     dob DATE,
     gender VARCHAR(20),
@@ -56,7 +56,7 @@ CREATE TABLE signup (
 * Create the **signuptwo** table for storing additional user details.
  ```sql
 CREATE TABLE signuptwo (
-    formNo VARCHAR(10) PRIMARY KEY,
+    formNo VARCHAR(10),
     citizenship VARCHAR(50),
     race VARCHAR(50),
     income VARCHAR(50),
@@ -99,10 +99,10 @@ CREATE TABLE bank (
 <img src="https://raw.githubusercontent.com/amalgohar/profitpulse/main/demo/signupone.jpg" alt="Account Creation - Page 1" width="500">
 
 2. Sign-Up: Page 2. 
-<img src="https://raw.githubusercontent.com/amalgohar/profitpulse/main/demo/signuptwo.jpg" alt="Account Creation - - Page 2" width="500">
+<img src="https://raw.githubusercontent.com/amalgohar/profitpulse/main/demo/signuptwo.jpg" alt="Account Creation - Page 2" width="500">
 
 3. Sign-Up: Page 3.  
-<img src="https://raw.githubusercontent.com/amalgohar/profitpulse/main/demo/signupthree.jpg" alt="Account Creation - - Page 3" width="500">
+<img src="https://raw.githubusercontent.com/amalgohar/profitpulse/main/demo/signupthree.jpg" alt="Account Creation - Page 3" width="500">
 
 4. Login.
 <img src="https://raw.githubusercontent.com/amalgohar/profitpulse/main/demo/login.jpg" alt="Login" width="500">
